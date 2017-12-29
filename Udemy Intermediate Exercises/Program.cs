@@ -6,7 +6,31 @@ namespace Udemy_Intermediate_Exercises
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Stoperica();
+        }
+
+
+
+        static void Stoperica()
+        {
+            var stopWatch = new StopWatch();
+
+            Console.WriteLine("Press <Spacebar> to start stopwatch");
+            do
+            {
+                if (Console.ReadKey().Key == ConsoleKey.Spacebar)
+                {
+                    stopWatch.Start();
+                    Console.WriteLine("Counting");
+
+                    if (Console.ReadKey().Key == ConsoleKey.Spacebar)
+                    {
+                        stopWatch.Stop();
+                        Console.WriteLine(stopWatch.Duration().Seconds);
+                    }
+                }
+            } while (Console.ReadKey().Key != ConsoleKey.Escape);
+
         }
     }
 }
