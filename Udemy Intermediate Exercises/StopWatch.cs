@@ -9,16 +9,14 @@ namespace Udemy_Intermediate_Exercises
         private TimeSpan _timeSpan;
         private bool _isRunning = false;
 
-
-        
         public void Start()
         {
             if (_isRunning)
-                throw new InvalidOperationException("STOPWATCH ALREADY STARTED");
+                throw new InvalidOperationException("A Stopwatch object is already running.");
 
             this._isRunning = true;
             this._startTime = DateTime.Now;
-
+            this._endTime = _startTime;
         }
         
         public void Stop()
@@ -30,10 +28,7 @@ namespace Udemy_Intermediate_Exercises
 
         public TimeSpan Duration()
         {
-            return _endTime - _startTime;
+            return (_endTime - _startTime);
         }
-
-        
-
     }
 }
