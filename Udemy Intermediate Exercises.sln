@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance exercise", "Inh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise Polymorphism", "Exercise Polymorphism\Exercise Polymorphism.csproj", "{C53E835F-4A23-4430-9F5D-60403BD5B62E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow", "Workflow\Workflow.csproj", "{BEF73246-71DE-42FB-BBCA-DD8DCC855AFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C53E835F-4A23-4430-9F5D-60403BD5B62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C53E835F-4A23-4430-9F5D-60403BD5B62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C53E835F-4A23-4430-9F5D-60403BD5B62E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF73246-71DE-42FB-BBCA-DD8DCC855AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF73246-71DE-42FB-BBCA-DD8DCC855AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF73246-71DE-42FB-BBCA-DD8DCC855AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF73246-71DE-42FB-BBCA-DD8DCC855AFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
