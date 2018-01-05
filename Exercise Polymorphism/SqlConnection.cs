@@ -18,12 +18,10 @@ namespace Exercise_Polymorphism
                 ConnectionOpen = true;
             }
             else
-            {
                 Console.WriteLine("Sql connection already opened.");
-            }
         }
 
-        public override void Closed()
+        public override void Close()
         {
             Console.WriteLine("Sql connection closed ");
             ConnectionOpen = false;

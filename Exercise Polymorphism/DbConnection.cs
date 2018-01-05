@@ -37,7 +37,7 @@ namespace Exercise_Polymorphism
         }
 
         public abstract void Open();
-        public abstract void Closed();
+        public abstract void Close();
 
 
     }

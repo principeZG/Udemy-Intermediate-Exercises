@@ -25,7 +25,7 @@ namespace Exercise_Polymorphism
             
         }
 
-        public override void Closed()
+        public override void Close()
         {
             Console.WriteLine("Oracle connection closed");
             ConnectionOpen = false;
